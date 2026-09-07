@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>/dev/Bashanta</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         Navigation
+    ========================== -->
+
+    <nav class="navbar">
+
+        <div class="nav-inner">
+
+            <a href="#home" class="brand">
+                <span>/dev/</span>Bashanta
+            </a>
+
+            <div class="status-container">
+                <span class="pulse-dot"></span>
+                <span class="user-online">Bashanta is Online</span>
+            </div>
+
+            <button class="menu-toggle" aria-label="Open navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home" class="nav-link active">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about" class="nav-link">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="nav-link">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#education" class="nav-link">
+                        Education
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =========================
+         Home
+    ========================== -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="detail-container reveal">
+
+                <span class="terminal-label">
+                    &gt; Hello, World!
+                </span>
+
+                <h1>Bashanta</h1>
+
+                <h2 class="typing-role">
+                    Frontend Engineer
+                </h2>
+
+                <h3>Beginner Developer</h3>
+
+                <p>
+                    Beginner frontend developer and BIT student at
+                    Amrit Science Campus, passionate about creating
+                    clean, responsive and user-friendly websites.
+                </p>
+
+                <div class="buttons">
+
+                    <button
+                        class="view-projects"
+                        data-target="skills">
+                        View Skills
+                    </button>
+
+                    <button
+                        class="contact-me"
+                        data-target="contact">
+                        Contact Me
+                    </button>
+
+                    <button
+                        class="download-cv"
+                        id="downloadCV">
+                        Download CV
+                    </button>
+
+                </div>
+
+                <div class="meta-grid">
+
+                    <div class="meta-item">
+                        <span class="meta-key">Loc:</span>
+                        <span class="meta-val">
+                            Kathmandu, Nepal
+                        </span>
+                    </div>
+
+                    <div class="meta-item">
+                        <span class="meta-key">Stack:</span>
+                        <span class="meta-val">
+                            HTML · CSS · JS
+                        </span>
+                    </div>
+
+                    <div class="meta-item">
+                        <span class="meta-key">Contact:</span>
+                        <span class="meta-val">
+                            9864267737
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 Interactive Terminal
+            ========================== -->
+
+            <div class="terminal-wrapper reveal">
+
+                <div class="terminal-window">
+
+                    <div class="terminal-header">
+
+                        <div class="terminal-buttons">
+                            <span class="terminal-red"></span>
+                            <span class="terminal-yellow"></span>
+                            <span class="terminal-green"></span>
+                        </div>
+
+                        <span class="terminal-title">
+                            bashanta@portfolio:~
+                        </span>
+
+                        <span class="terminal-menu">
+                            •••
+                        </span>
+
+                    </div>
+
+                    <div class="terminal-body">
+
+                        <div class="terminal-line">
+                            <span class="green">$</span>
+                            whoami
+                        </div>
+
+                        <div class="terminal-output">
+                            bashanta
+                        </div>
+
+                        <div class="terminal-line">
+                            <span class="green">$</span>
+                            location
+                        </div>
+
+                        <div class="terminal-output">
+                            Kathmandu, Nepal
+                        </div>
+
+                        <div class="terminal-line">
+                            <span class="green">$</span>
+                            skills
+                        </div>
+
+                        <div class="terminal-output">
+                            HTML · CSS · JavaScript · React
+                        </div>
+
+                        <div class="terminal-line">
+                            <span class="green">$</span>
+                            education
+                        </div>
+
+                        <div class="terminal-output">
+                            BIT @ Amrit Science Campus
+                        </div>
+
+                        <div class="terminal-line terminal-command">
+
+                            <span class="green">$</span>
+
+                            <span id="terminalTyping"></span>
+
+                            <span class="cursor"></span>
+
+                        </div>
+
+                        <div class="ascii-art">
+
+<pre>
+  ____                  _                 _       
+ | __ )  __ _ ___  __ _| |__   __ _ _ __ | |_ __ _
+ |  _ \ / _` / __|/ _` | '_ \ / _` | '_ \| __/ _` |
+ | |_) | (_| \__ \ (_| | | | | (_| | | | | || (_| |
+ |____/ \__,_|___/\__, |_| |_|\__,_|_| |_|\__\__,_|
+                   |___/
+</pre>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="terminal-glow"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         About
+    ========================== -->
+
+    <section class="page-section" id="about">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">01</span>
+
+            <h2>ABOUT</h2>
+
+            <p>
+                A little bit about me
+            </p>
+
+        </div>
+
+        <div class="about-container reveal">
+
+            <p>
+                I am a beginner and hardworking Front-End Developer
+                with a strong passion for creating clean, responsive,
+                and user-friendly websites.
+            </p>
+
+            <p>
+                I am currently pursuing a Bachelor's degree in
+                Information Technology at Amrit Science Campus,
+                where I am developing my knowledge of programming,
+                web development, and information technology.
+            </p>
+
+            <h3>Professional Summary</h3>
+
+            <p>
+                Motivated and enthusiastic IT student with a strong
+                interest in web development and practical knowledge
+                of front-end technologies.
+            </p>
+
+            <p>
+                Familiar with creating responsive and user-friendly
+                websites using HTML, CSS, JavaScript, and modern
+                front-end concepts.
+            </p>
+
+            <p>
+                Eager to learn new technologies, improve
+                problem-solving skills, and gain hands-on experience
+                through real-world projects.
+            </p>
+
+            <p>
+                A quick learner with good teamwork, communication,
+                and time-management skills, seeking opportunities
+                to grow as a software and web development professional.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         Skills
+    ========================== -->
+
+    <section class="page-section" id="skills">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">02</span>
+
+            <h2>TECHNICAL STACK</h2>
+
+            <p>
+                Technologies and competencies
+            </p>
+
+        </div>
+
+
+        <div class="skill-grid">
+
+            <div class="skill-category tilt-card reveal">
+
+                <div class="card-icon">
+                    &lt;/&gt;
+                </div>
+
+                <h3>Frontend Development</h3>
+
+                <p>
+                    Building responsive and interactive web interfaces.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tech-batch">HTML</span>
+                    <span class="tech-batch">CSS</span>
+                    <span class="tech-batch">JavaScript</span>
+                    <span class="tech-batch">React</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-category tilt-card reveal">
+
+                <div class="card-icon">
+                    ✦
+                </div>
+
+                <h3>UI/UX Design</h3>
+
+                <p>
+                    Interested in creating clean and intuitive
+                    user experiences.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tech-batch">
+                        Photoshop
+                    </span>
+
+                    <span class="tech-batch">
+                        User Research
+                    </span>
+
+                    <span class="tech-batch">
+                        Design Systems
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-category tilt-card reveal">
+
+                <div class="card-icon">
+                    JS
+                </div>
+
+                <h3>Currently Learning</h3>
+
+                <p>
+                    Continuously improving my development skills
+                    through practical projects.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tech-batch">
+                        React
+                    </span>
+
+                    <span class="tech-batch">
+                        Git
+                    </span>
+
+                    <span class="tech-batch">
+                        Responsive Design
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         Education
+    ========================== -->
+
+    <section class="page-section" id="education">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">03</span>
+
+            <h2>EDUCATION</h2>
+
+            <p>
+                My academic journey
+            </p>
+
+        </div>
+
+
+        <div class="education-grid">
+
+            <div class="education-category tilt-card reveal">
+
+                <div class="education-year">
+                    2022 — 2024
+                </div>
+
+                <h3>+2 Graduation</h3>
+
+                <span class="tech-batch">
+                    GPA: 2.98
+                </span>
+
+                <p>
+                    School: Sungava, Parsa, Chitwan
+                </p>
+
+            </div>
+
+
+            <div class="education-category tilt-card reveal">
+
+                <div class="education-year">
+                    2024 — 2028
+                </div>
+
+                <h3>Currently Running</h3>
+
+                <span class="tech-batch">
+                    Bachelor in Information Technology
+                </span>
+
+                <p>
+                    Amrit Science Campus
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         Contact
+    ========================== -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="contact-box reveal">
+
+            <span class="section-number">04</span>
+
+            <h2 class="bottom-title">
+                Get In Touch
+            </h2>
+
+            <p class="contact-intro">
+                Have an idea, project, or opportunity?
+                Let's connect.
+            </p>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-item">
+
+                    <span class="bottom-key">
+                        Email
+                    </span>
+
+                    <span class="bottom-value">
+                        bashantadhamala2022@gmail.com
+                    </span>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span class="bottom-key">
+                        Phone
+                    </span>
+
+                    <span class="bottom-value">
+                        9864267737
+                    </span>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span class="bottom-key">
+                        Address
+                    </span>
+
+                    <span class="bottom-value">
+                        Putalisadak, Kathmandu
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <button class="email-button" id="emailButton">
+                Send Me an Email →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Back to top -->
+
+    <button
+        class="back-top"
+        id="backTop"
+        aria-label="Back to top">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
