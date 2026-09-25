@@ -418,7 +418,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const contact =
                     document.getElementById(
-                        "contact"
+                        "contact-me"
                     );
 
 
@@ -627,7 +627,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const buttons =
         document.querySelectorAll(
-
+            ".buttons button, .email-button"
         );
 
 
