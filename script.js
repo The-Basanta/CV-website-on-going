@@ -407,7 +407,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================================================= */
 
     const contactButton =
-        document.querySelector(".contact-me");
+        document.querySelector(".contact");
 
 
     if (contactButton) {
@@ -418,7 +418,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const contact =
                     document.getElementById(
-                        "contact-me"
+                        "contact"
                     );
 
 
