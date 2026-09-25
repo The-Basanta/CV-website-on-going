@@ -735,7 +735,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 behavior: "smooth"
             });
 
-            setActiveLink("#home");
 
         }
     );
