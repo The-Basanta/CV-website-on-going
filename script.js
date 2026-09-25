@@ -627,7 +627,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const buttons =
         document.querySelectorAll(
-            ".buttons button, .email-button"
+
         );
 
 
@@ -735,6 +735,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 behavior: "smooth"
             });
 
+            setActiveLink("#home");
 
         }
     );
