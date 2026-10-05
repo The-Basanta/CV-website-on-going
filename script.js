@@ -350,10 +350,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    if (terminalTyping) {
-
-        typeTerminalCommand();
-
+ 
     }
 
 
