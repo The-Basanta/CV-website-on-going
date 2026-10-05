@@ -376,7 +376,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 const targetID =
                     button.dataset.target;
 
-
+                const target =
+                    document.getElementById(
+                        targetID
+                    );
 
 
                 if (!target) return;
@@ -419,10 +422,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     );
 
 
-                contact.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start"
-                });
+
 
 
                 setActiveLink("#contact");
