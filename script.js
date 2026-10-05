@@ -422,7 +422,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     );
 
 
-
+                contact.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
 
 
                 setActiveLink("#contact");
@@ -439,7 +442,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const downloadCV =
         document.getElementById(
-            "downloadCV"
+
         );
 
 
