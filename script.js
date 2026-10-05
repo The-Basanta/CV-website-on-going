@@ -350,7 +350,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
- 
+    if (terminalTyping) {
+
+        typeTerminalCommand();
+
     }
 
 
@@ -373,10 +376,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const targetID =
                     button.dataset.target;
 
-                const target =
-                    document.getElementById(
-                        targetID
-                    );
+
 
 
                 if (!target) return;
