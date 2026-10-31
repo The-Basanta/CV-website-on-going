@@ -442,7 +442,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const downloadCV =
         document.getElementById(
-
+            "downloadCV"
         );
 
 
